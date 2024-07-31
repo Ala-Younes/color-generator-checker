@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+body {
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  border-width: 3px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 2rem;
+}
+
+#bg-hex-code {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.btn-group {
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
